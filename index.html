@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário da Gabi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>feliz niversário morzitio &#128151;</h1>
+    </header>
+
+    <section id="musicas">
+        <h2>aperta o play que toca alguma coisa</h2>
+        <ul id="lista-musicas">
+            <!-- Cada música terá um botão para reproduzir -->
+            <li>
+                just how fast night changesssssss
+                <button class="btn-play" data-src="musicas/oneD.mp3">▶️</button>
+            </li>
+            <li>
+                hihi
+                <button class="btn-play" data-src="musicas/duas.mp4">▶️</button>
+            </li>
+            <li>
+                feliz aniversuairio
+                <button class="btn-play" data-src="musicas/tres.mp4">▶️</button>
+            </li>
+        </ul>
+    </section>
+    <section id="fotos-familia">
+        <h2>fotitas</h2>
+        <div id="galeria-familia">
+          <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a href="imagens/dois.jpeg" class="expandir-imagem" data-imagem="um.jpeg">
+                      <img src="imagens/um.jpeg" alt="Primeiro Slide" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#" class="expandir-imagem" data-imagem="dois.jpeg">
+                      <img src="imagens/dois.jpeg" alt="Segundo Slide" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#" class="expandir-imagem" data-imagem="tress.jpeg">
+                      <img src="imagens/tress.jpeg" alt="Terceiro Slide" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#" class="expandir-imagem" data-imagem="quato.jpg">
+                      <img src="imagens/quato.jpg" alt="Quarto Slide" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div><br>
+            <h3>todos te amam muito minha princesinha!!!!</h3>
+      
+        </div>
+      </section>
+      
+      <!-- Modal de imagem -->
+      <div class="modal fade" id="modal-imagem" tabindex="-1" role="dialog" aria-labelledby="modal-imagem-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="" alt="Imagem Expandida" id="imagem-expandida" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+    <section id="foto-lili">
+        <h2>foto da luali pq ela tbm te ama</h2>
+        <div id="foto-cachorro">
+          <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a href="#" class="expandir-imagem" data-imagem="um.jpeg">
+                      <img src="imagens/lili1.jpg"><br>
+                    </a>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" class="expandir-imagem" data-imagem="quato.jpg">
+                        <img src="imagens/lili2.jpg" alt="Quarto Slide" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" class="expandir-imagem" data-imagem="quato.jpg">
+                        <img src="imagens/lili3.jpg" alt="Quarto Slide" class="img-fluid">
+                      </a>
+          
+                  </div>
+    </section>
+    <div class="text-center">
+      <h1>Para a Gabizita princesinha do meu coração</h1>
+      <a href="cartinha.html" target="_blank" class="btn btn-dark">Clique aqui!</a>
+  </div>
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
